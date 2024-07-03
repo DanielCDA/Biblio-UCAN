@@ -1,0 +1,53 @@
+.footer
+{
+    background-color: rgb(22, 24, 29);
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+}
+#foot{
+   
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;  
+}
+#rodape1{
+    margin: center;
+}
+
+#rodape1 p{
+    color: white;
+}
+#texto{
+    background-color: #353535;
+    height:40px;
+    border: 0px;
+    padding: 0px 20px;
+    color: white;
+}
+
+#botao{
+    background-color: #0081c2;
+    height:40px;
+    border: 0px;
+    padding: 0px 20px;
+    color: white;
+}
+
+.footer h4{
+    color: #54595F;
+    font-size: 14px;
+    font-family: Poppins;
+}
+#rodape2 i
+{
+    margin-left: 30px;
+    font-size: 3em;
+    color: white;
+}
+#rodape2 i:hover{
+    transform: scale(1.4px);
+    color: #3381f3;
+}

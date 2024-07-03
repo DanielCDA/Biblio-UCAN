@@ -1,0 +1,107 @@
+.truck h3{
+    font-size: 40px;
+    background-color:  #1e8fcd;
+    margin-right:1100px;
+    margin-left: 10px;
+    border-radius: 0px 50px  50px 0px;
+}
+#livros
+{
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+}
+#livros img
+{
+    align-items: inherit; 
+    padding: 0 0px;
+    width: 200px;
+    height: 300px;
+    align-items: center;
+    box-shadow: 5px 5px 5px 8px #0000005e;
+    margin: 0 30px ;
+ 
+}
+#livros a
+{
+    text-decoration: none;
+    color: #18243b;
+    font-size: 20px;
+    transition:.5%;
+}
+#livros  a:hover
+{
+    transform: scale(1.4px);
+    color: #3381f3;
+}
+#livros a p
+{
+    font-family: 'Times New Roman', Times, serif;
+    list-style: none;
+    
+    margin-left: 35px;
+
+}
+
+/* serviços*/
+#container{
+    margin-top: 120px;
+}
+#descricao{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: 20px;
+}
+#serviços{
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;    
+    flex-wrap: wrap;
+}
+#item{
+    
+    display: flex;
+    height: 350px;
+    width: 900px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 100px;
+    align-items: center;  
+}
+#item h2
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: 20px;
+    color: #18243b;
+}
+#sala{
+    height: inherit;
+    width: auto;
+    border-radius: 20px;  
+}
+
+/*SOBRE */
+#container h1{
+    text-align: center;
+}
+.texto{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+    gap:30px
+}
+
+#paragrafo{
+    width: 500px;
+    text-align: justify;
+}
+#sobre{
+    align-items: inherit;
+    height: inherit;
+    width: 400px;  
+    border-radius: 30px;
+}

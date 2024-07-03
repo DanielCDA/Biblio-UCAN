@@ -1,0 +1,53 @@
+#banner{
+    margin-top: 0px;
+    margin-bottom: 60px;
+    background: url("../imagens/livros1.jpg") ;
+    max-width: 100%;
+    background-color: #cccccc;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#shearch-form
+{
+    position: flex;
+    width: 80%;
+    padding-top: 27em;
+    padding-bottom: 27em;
+    text-align: center;
+    color: #fff;
+}
+#shearch-form h1{
+    font-size: 40px;
+    background-color: #1e90cdd2;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 0px 50px  50px 0px;
+}
+#shearch-form p{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-size: 39px;
+    font-weight:300;
+}
+#shearch-form input, #shearch-form select
+{
+    background-color: #fff;
+    border-radius: 5px;
+    border-color: transparent;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+} 
+#shearch-form input[type=submit]
+{
+  background-color: #3381f3;  
+  text-transform: uppercase;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5; 
+}
+#shearch-form input[type=submit]:hover{
+    background-color: #2B79eb ;
+}
